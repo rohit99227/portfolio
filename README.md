@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# opPortfolio
 
-## Getting Started
+[![Netlify Status](https://api.netlify.com/api/v1/badges/afea2508-00ca-464f-8f63-a4283928fc0f/deploy-status)](https://app.netlify.com/sites/hriship/deploys)
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FHrishi1999%2FopPortfolio)
 
-First, run the development server:
+![opPortfolio](/images/portfolio.gif)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### A clean portfolio template. (Readme will be updated soon)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Sections
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Home
+- Education and Certificates
+- Experience
+- Projects
+- Contact and Resume
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# How To Use
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Clone this repository (or fork, then clone your fork :) )
+- Run `npm i`
+- Check it out using `npm start`
 
-## Learn More
+# How Do I Customize
 
-To learn more about Next.js, take a look at the following resources:
+- Replace `homepage` in package.json to your domain name or `https://<username>.github.io`
+- In `src/portfolio.js` you can add your personal portfolio details.
+- In `src/theme.js` you can change the theme colors. You can change between Light and Dark theme with the theme switch on the header.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# How to Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I have used Netlify to host my portfolio. If you want to use GitHub Pages, just run `npm run build` and publish all the files in the `/build` folder to your repository.
 
-## Deploy on Vercel
+# References
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
+Illustrations: https://undraw.co/
